@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* designs for custom calendar of front page */
+
+/* on hover */
+.calendar-component-front .rs-calendar-header-title:hover, .calendar-component-front .rs-calendar-header-backward:hover, .calendar-component-front .rs-calendar-header-forward:hover {
+    background-color: #FFF4EB;
+}
+/* on focus */
+.calendar-component-front .rs-calendar-header-title:focus, .calendar-component-front .rs-calendar-header-backward:focus, .calendar-component-front .rs-calendar-header-forward:focus {
+    background-color: #FFF4EB;
+}
+
+
+

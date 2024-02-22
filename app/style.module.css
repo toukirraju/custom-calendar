@@ -1,0 +1,55 @@
+/* table header */
+.rs-calendar-header {
+    position: relative;
+}
+
+.rs-calendar-table-header-cell-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+/* Month and year */
+.rs-calendar-header-title {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+/* hidden button */
+.rs-calendar-btn-today {
+    display: none;
+}
+
+/* forward and backward arrow at the top */
+.rs-calendar-header-forward {
+    position: absolute;
+    right: 10px;
+}
+.rs-calendar-header-backward {
+    position: absolute;
+    right: 40px;
+}
+
+/* each cell of the calendar */
+.rs-calendar-table-cell {
+    padding: 7px !important;
+}
+.rs-calendar-table-cell-content {
+    border: 1px solid #F4D1B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px !important;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* not same month dates */
+ .rs-calendar-table-cell-un-same-month > .rs-calendar-table-cell-content {
+    background-color: #FFE0E0;
+    color: black;
+ }
+
+
+ 

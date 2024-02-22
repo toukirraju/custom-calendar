@@ -1,0 +1,70 @@
+
+.calendar-component-front {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+.calendar-component-front .rs-calendar-btn-today {
+    display: none;
+}
+.calendar-component-front .rs-calendar-header-title {
+    padding-left: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+.calendar-component-front .rs-calendar-header-backward {
+    position: absolute;
+    right: 40px;
+}
+.calendar-component-front .rs-calendar-header-forward {
+    position: absolute;
+    right: 10px;
+}
+/* on hover */
+.calendar-component-front .rs-calendar-header-title:hover, .calendar-component-front .rs-calendar-header-backward:hover, .calendar-component-front .rs-calendar-header-forward:hover {
+    background-color: #FFF4EB;
+}
+
+/* on focus */
+.calendar-component-front .rs-calendar-header-title:focus, .calendar-component-front .rs-calendar-header-backward:focus, .calendar-component-front .rs-calendar-header-forward:focus {
+    background-color: #FFF4EB;
+}
+
+.calendar-component-front .rs-calendar-table-header-cell-content {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.calendar-component-front .rs-calendar-table-cell {
+    padding: 5px;
+}
+.calendar-component-front .rs-calendar-table-cell-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F4D1B1;
+    height: 26px !important;
+}
+.calendar-component-front .rs-calendar-table-cell-un-same-month>.rs-calendar-table-cell-content {
+    color: black;
+    background-color: #FFE0E0;
+}
+.calendar-component-front .rs-calendar-table-cell-is-today>.rs-calendar-table-cell-content {
+    background-color: #849C3E;
+}
+.calendar-component-front .rs-calendar-table-cell-is-today>.rs-calendar-table-cell-content>.rs-calendar-table-cell-day {
+    background:transparent;
+}
+
+.calendar-component-front .rs-calendar-table-cell-selected>.rs-calendar-table-cell-content {
+    background-color: #F4D1B1;
+    box-shadow: none;
+}
+
+/* month & year dropdown */
+.calendar-component-front .rs-calendar-header-title-date, .calendar-component-front .rs-calendar-month-dropdown-year-active {
+    color: black;
+}
+.calendar-component-front .rs-calendar-month-dropdown-cell-active>.rs-calendar-month-dropdown-cell-content {
+    background-color: #F4D1B1;
+}
